@@ -1,1 +1,3 @@
-
+RewriteEngine On
+RewriteCond %{HTTP_HOST} tender.md
+RewriteRule (.*) https://tender.gov.md/ro/$1 [R=301,L]
